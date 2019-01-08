@@ -28,9 +28,9 @@
                 );
 
             modelBuilder.Entity<Agreement>().HasData(
-                new Agreement() { Amount = 12000, BaseRateCode = "VILIBOR3m", CustomerId = 67812203006, Id = 1, Margin = 1.6m, Duration = 60, Timestamp = new DateTime(2012, 02, 01) },
-                new Agreement() { Amount = 8000, BaseRateCode = "VILIBOR1y", CustomerId = 78706151287, Id = 2, Margin = 2.2m, Duration = 36, Timestamp = new DateTime(2013, 02, 01) },
-                new Agreement() { Amount = 1000, BaseRateCode = "VILIBOR6m", CustomerId = 78706151287, Id = 3, Margin = 1.85m, Duration = 24, Timestamp = new DateTime(2014, 02, 01) }
+                new Agreement() { Amount = 12000, BaseRateCode = "VILIBOR3m", CustomerId = 67812203006, Id = 111, Margin = 1.6m, Duration = 60, Timestamp = new DateTime(2012, 02, 01) },
+                new Agreement() { Amount = 8000, BaseRateCode = "VILIBOR1y", CustomerId = 78706151287, Id = 222, Margin = 2.2m, Duration = 36, Timestamp = new DateTime(2013, 02, 01) },
+                new Agreement() { Amount = 1000, BaseRateCode = "VILIBOR6m", CustomerId = 78706151287, Id = 333, Margin = 1.85m, Duration = 24, Timestamp = new DateTime(2014, 02, 01) }
                 );
         }
     }

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace InterestRateCounter.Service.ServiceModels
+﻿namespace InterestRateCounter.Service.ServiceModels
 {
+    using System;
+
     public class AgreementModel
     {
         public long Id { get; set; }

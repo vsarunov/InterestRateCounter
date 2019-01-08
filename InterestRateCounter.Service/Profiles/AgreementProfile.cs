@@ -1,9 +1,9 @@
-﻿using AutoMapper;
-using InterestRateCounter.Models.Models;
-using InterestRateCounter.Service.ServiceModels;
-
-namespace InterestRateCounter.Service.Profiles
+﻿namespace InterestRateCounter.Service.Profiles
 {
+    using AutoMapper;
+    using InterestRateCounter.Models.Models;
+    using InterestRateCounter.Service.ServiceModels;
+
     public class AgreementProfile : Profile
     {
         public AgreementProfile()
@@ -25,6 +25,7 @@ namespace InterestRateCounter.Service.Profiles
                 .ForMember(src => src.Duration, dest => dest.MapFrom(src => src.Duration))
                 .ForMember(src => src.Margin, dest => dest.MapFrom(src => src.Margin))
                 .ForMember(src => src.CustomerId, dest => dest.MapFrom(src => src.CustomerId))
+                .ForMember(src => src.Customer, dest => dest.UseDestinationValue())
                 .ForAllOtherMembers(dest => dest.Ignore());
         }
     }

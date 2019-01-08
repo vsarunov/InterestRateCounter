@@ -1,12 +1,8 @@
-﻿using AutoMapper;
-using StructureMap;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace InterestRateCounter.Registries
+﻿namespace InterestRateCounter.Registries
 {
+    using AutoMapper;
+    using StructureMap;
+
     public class InterestRateCounterRegistry: Registry
     {
         public InterestRateCounterRegistry()

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterestRateCounter.DAL.Repositories
+﻿namespace InterestRateCounter.DAL.Repositories
 {
+    using System.Threading.Tasks;
+
     public interface IBaseRateRepository
     {
         Task<string> GetBaseRate(string baseRateCode);

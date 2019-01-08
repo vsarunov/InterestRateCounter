@@ -3,8 +3,8 @@
     using InterestRateCounter.Models.Models;
     using System.Threading.Tasks;
 
-    public interface ICustomerRepository
+    public interface IAgreementRepository
     {
-        Task<Customer> GetCustomerByIdAsync(long id);
+        Task<Agreement> SaveNewAgreementAsync(Agreement agreement);
     }
 }

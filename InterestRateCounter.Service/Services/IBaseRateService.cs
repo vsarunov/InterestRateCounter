@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterestRateCounter.Service.Services
+﻿namespace InterestRateCounter.Service.Services
 {
+    using System.Threading.Tasks;
+
     public interface IBaseRateService
     {
         Task<decimal?> GetBaseRateByCodeAsync(string baseRateCode);

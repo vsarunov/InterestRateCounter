@@ -4,8 +4,8 @@
     using System.Threading.Tasks;
 
 
-    public interface ICustomerService
+    public interface IAgreementService
     {
-        Task<CustomerModel> GetCustomersByIdAsync(long id);
+        Task<AgreementModel> SaveNewAgreementAsync(AgreementModel agreement);
     }
 }

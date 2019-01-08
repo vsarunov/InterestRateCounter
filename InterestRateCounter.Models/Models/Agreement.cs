@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
-
-namespace InterestRateCounter.Models.Models
+﻿namespace InterestRateCounter.Models.Models
 {
+    using System;
+
     public class Agreement
     {
         public long Id { get; set; }

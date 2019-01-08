@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InterestRateCounter.Models.Settings
+﻿namespace InterestRateCounter.Models.Settings
 {
+    using System;
+
     public class AppSettings
     {
         public Uri VilibidUri { get; set; }
